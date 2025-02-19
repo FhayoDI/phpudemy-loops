@@ -7,9 +7,9 @@ while($quebra != $contador){
         $valores=readline("digite um valor:  ");
         if($quebra != $contador){
           $soma += $valores;
-            $quebra = $quebra + 1;
+          $quebra = $quebra + 1;
         }
 }
 echo "valores somados: $soma ";
 $media = $soma / $quebra;
-echo "a media é "$media;
+echo "a media é $media";
